@@ -21,7 +21,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed"
         >
-          Hi, I'm <strong className="text-foreground font-semibold">Niranjan L</strong>, a Graphic and UI/UX Designer based in Bengaluru. I build visual identities that communicate clearly, solve real business problems, and leave a lasting impression.
+          I'm <strong className="text-foreground font-semibold">Niranjan L</strong>, a Brand & Graphic Designer based in Bengaluru, creating visual identities, packaging, and digital experiences that help businesses communicate with clarity and purpose.
         </motion.p>
         
         <motion.div 

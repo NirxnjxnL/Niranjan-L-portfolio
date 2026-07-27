@@ -43,22 +43,22 @@ export default function About() {
               <div className="bg-background border border-border p-8 rounded-2xl relative overflow-hidden group">
                 <div className="absolute top-0 left-0 w-1 h-full bg-primary origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-300"></div>
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 gap-2">
-                  <h4 className="text-lg font-bold">Graphic Designing Intern</h4>
+                  <h4 className="text-lg font-bold">Graphic Design Intern</h4>
                   <span className="text-sm font-medium text-muted-foreground bg-secondary px-3 py-1 rounded-full w-fit">Mar 2026 - Apr 2026</span>
                 </div>
                 <p className="font-medium mb-4 text-primary">Codec Technologies Pvt. Ltd.</p>
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex gap-3">
                     <CheckCircle2 className="h-5 w-5 text-neutral-400 shrink-0 mt-0.5" />
-                    <span>Worked on live client projects, successfully balancing creative vision with practical business needs.</span>
+                    <span>Completed structured training in branding, graphic design, and visual communication.</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="h-5 w-5 text-neutral-400 shrink-0 mt-0.5" />
-                    <span>Designed branding materials, social media creatives, and marketing assets.</span>
+                    <span>Designed branding concepts, social media creatives, and marketing assets through practical assignments.</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="h-5 w-5 text-neutral-400 shrink-0 mt-0.5" />
-                    <span>Collaborated closely with teams and evolved designs rapidly based on feedback.</span>
+                    <span>Strengthened skills in Adobe Illustrator, Photoshop, Figma, typography, layout design, and visual storytelling through project-based learning.</span>
                   </li>
                 </ul>
               </div>
