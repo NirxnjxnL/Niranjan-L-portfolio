@@ -9,14 +9,11 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-neutral-200/50 via-background to-background dark:from-neutral-800/50" />
       
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+        <h1 
           className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6"
         >
           Designing brands with <span className="text-neutral-500">purpose</span>, <span className="text-neutral-500">clarity</span>, and personality.
-        </motion.h1>
+        </h1>
         
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
