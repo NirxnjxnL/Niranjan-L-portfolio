@@ -456,8 +456,7 @@ export const projectsData: ProjectData[] = [
         content: [
           "The project evolved through a structured design process to ensure the final deliverables met enterprise standards:",
           "**Moodboard → Wireframes → Initial Layouts → Iterations → Final Presentation**"
-        ],
-        imagePlaceholder: "Design Process Flowchart / Sketches"
+        ]
       },
       {
         title: "Final Deliverables",
@@ -465,8 +464,12 @@ export const projectsData: ProjectData[] = [
           "**Presentation Slides:** Designed to clearly present Gnani.ai's voice AI capabilities using a clean, enterprise-focused layout.",
           "**LinkedIn Creatives:** Created engaging social media graphics tailored for professional networking."
         ],
-        imagePlaceholder: "Presentation Slides Mockups",
-        fullWidthImagePlaceholder: "LinkedIn Campaign Mockups"
+        images: [
+          "/images/gnani-ai/slide-1.png",
+          "/images/gnani-ai/slide-2.png",
+          "/images/gnani-ai/poster-1.png",
+          "/images/gnani-ai/poster-2.png"
+        ]
       },
       {
         title: "Reflection",
@@ -514,8 +517,7 @@ export const projectsData: ProjectData[] = [
         content: [
           "The campaign was built through a systematic exploration of layouts and brand elements:",
           "**Research → Layout Exploration → Grid System → Typography → Poster → Presentation**"
-        ],
-        imagePlaceholder: "Layout Explorations & Process"
+        ]
       },
       {
         title: "Final Deliverables",
@@ -523,8 +525,10 @@ export const projectsData: ProjectData[] = [
           "**Poster Design:** A premium internal communication poster designed to encourage idea sharing.",
           "**Presentation:** A slide deck explaining the creative direction and campaign rollout."
         ],
-        imagePlaceholder: "Poster Design Mockup",
-        fullWidthImagePlaceholder: "Presentation Mockups"
+        images: [
+          "/images/table-space/poster-1.png",
+          "/images/table-space/slide-1.png"
+        ]
       },
       {
         title: "Reflection",

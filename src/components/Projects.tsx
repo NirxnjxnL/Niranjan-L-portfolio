@@ -57,7 +57,7 @@ const categories = [
         slug: "gnani-ai",
         tag: "Design Assignment | Enterprise Presentation & LinkedIn Campaign",
         description: "An enterprise voice AI marketing design assignment focused on translating complex technologies into clean, engaging visual communication.",
-        image: "/images/my-posters/poster-porsche.png",
+        image: "/images/gnani-ai/poster-1.png",
         color: "from-[#e6f0ff] to-[#f5f9ff]",
         darkColor: "dark:from-[#1e293b] dark:to-[#0f172a]",
       },
@@ -66,7 +66,7 @@ const categories = [
         slug: "table-space",
         tag: "Design Assignment | Internal Communication Campaign",
         description: "An internal employee engagement campaign promoting idea sharing, designed to align with Table Space's premium corporate identity.",
-        image: "/images/my-posters/poster-porsche.png",
+        image: "/images/table-space/poster-1.png",
         color: "from-[#f5f5f5] to-[#fafafa]",
         darkColor: "dark:from-[#262626] dark:to-[#171717]",
       }
