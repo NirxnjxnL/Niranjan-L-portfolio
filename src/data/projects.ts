@@ -416,5 +416,122 @@ export const projectsData: ProjectData[] = [
       outcomes: 'A thoughtfully designed wellness brand that brings together visual identity and digital experience to encourage healthier, calmer everyday routines.',
       reflection: 'Flowy allowed me to combine brand identity design with UI/UX thinking to create a complete digital product experience. The project taught me how branding extends beyond logos into interfaces, interactions, and emotional experiences. Designing Flowy strengthened my understanding of user-centered design and reinforced the importance of creating systems that are both visually cohesive and functionally intuitive.'
     }
+  },
+  {
+    slug: 'gnani-ai',
+    title: 'Gnani.ai',
+    subtitle: 'Enterprise Voice AI Marketing Design',
+    type: 'Design Assignment',
+    industry: 'Enterprise AI & SaaS',
+    location: 'Bengaluru',
+    timeline: '2026',
+    role: 'Graphic Designer',
+    deliverables: 'Enterprise Presentation Slides, LinkedIn Creatives',
+    sections: [
+      {
+        title: "Overview",
+        content: [
+          "This project was completed as part of the internship selection process for Gnani.ai.",
+          "The assignment required designing enterprise presentation slides and LinkedIn creatives that aligned with the company's existing brand language."
+        ]
+      },
+      {
+        title: "The Challenge",
+        content: [
+          "Communicate complex AI technologies through clean and engaging visual communication while maintaining enterprise presentation standards."
+        ]
+      },
+      {
+        title: "Research",
+        content: [
+          "To ensure brand consistency and understand their visual communication style, I studied:",
+          "**1. Website & LinkedIn Presence:** Analyzed how they position their AI products to enterprise clients.",
+          "**2. Typography & Color Palette:** Identified their primary brand colors and font pairings.",
+          "**3. Layout System & Visual Hierarchy:** Studied how they structure complex information.",
+          "**4. Enterprise Communication Style:** Ensured the tone and aesthetic met B2B corporate standards."
+        ]
+      },
+      {
+        title: "Design Process",
+        content: [
+          "The project evolved through a structured design process to ensure the final deliverables met enterprise standards:",
+          "**Moodboard → Wireframes → Initial Layouts → Iterations → Final Presentation**"
+        ],
+        imagePlaceholder: "Design Process Flowchart / Sketches"
+      },
+      {
+        title: "Final Deliverables",
+        content: [
+          "**Presentation Slides:** Designed to clearly present Gnani.ai's voice AI capabilities using a clean, enterprise-focused layout.",
+          "**LinkedIn Creatives:** Created engaging social media graphics tailored for professional networking."
+        ],
+        imagePlaceholder: "Presentation Slides Mockups",
+        fullWidthImagePlaceholder: "LinkedIn Campaign Mockups"
+      },
+      {
+        title: "Reflection",
+        content: [
+          "This assignment was a valuable deep-dive into B2B and enterprise design. I learned how to handle information hierarchy for complex technical content, ensuring it remains digestible for corporate audiences without losing its sophisticated edge. It reinforced the importance of strictly adhering to an existing visual language while elevating the communication style."
+        ]
+      }
+    ]
+  },
+  {
+    slug: 'table-space',
+    title: 'Table Space',
+    subtitle: 'Internal Communication Campaign',
+    type: 'Design Assignment',
+    industry: 'Premium Workspace Solutions',
+    location: 'Bengaluru',
+    timeline: '2026',
+    role: 'Graphic Designer',
+    deliverables: 'Poster Design, Presentation',
+    sections: [
+      {
+        title: "Overview",
+        content: [
+          "This project was completed as part of the internship selection process for Table Space.",
+          "The objective was to create an internal employee engagement campaign promoting 'Ideas in Action'—a platform for idea sharing within the organization."
+        ]
+      },
+      {
+        title: "The Challenge",
+        content: [
+          "Design an internal communication campaign that motivates employees to contribute ideas while maintaining Table Space's premium corporate visual identity."
+        ]
+      },
+      {
+        title: "Research",
+        content: [
+          "To align with Table Space's premium aesthetic, I studied:",
+          "**1. Website & Instagram:** Analyzed their visual language and brand positioning.",
+          "**2. Typography & Grid System:** Identified their structured layout approach.",
+          "**3. Internal Communication Style:** Researched how premium workspaces communicate internally to maintain sophistication."
+        ]
+      },
+      {
+        title: "Design Process",
+        content: [
+          "The campaign was built through a systematic exploration of layouts and brand elements:",
+          "**Research → Layout Exploration → Grid System → Typography → Poster → Presentation**"
+        ],
+        imagePlaceholder: "Layout Explorations & Process"
+      },
+      {
+        title: "Final Deliverables",
+        content: [
+          "**Poster Design:** A premium internal communication poster designed to encourage idea sharing.",
+          "**Presentation:** A slide deck explaining the creative direction and campaign rollout."
+        ],
+        imagePlaceholder: "Poster Design Mockup",
+        fullWidthImagePlaceholder: "Presentation Mockups"
+      },
+      {
+        title: "Reflection",
+        content: [
+          "This project provided excellent hands-on experience in internal communication design and employee engagement. It challenged me to create work that is highly motivational yet strictly adheres to a premium corporate visual storytelling standard."
+        ]
+      }
+    ]
   }
 ];
