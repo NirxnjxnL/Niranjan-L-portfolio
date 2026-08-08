@@ -16,7 +16,7 @@ export default function Contact() {
           Looking to add a dedicated designer to your team? Let's connect.
         </h2>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-          I am currently seeking full-time opportunities where I can contribute my skills, collaborate with great teams, and grow professionally.
+          I'm looking for a full-time design role where I can contribute to branding, visual communication, and digital design.
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
