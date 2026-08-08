@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
-const categories = [
+export const categories = [
   {
     title: "Selected Work",
     description: "A collection of brand identities, packaging, and digital experiences crafted with intention.",
@@ -79,12 +79,26 @@ export default function Projects() {
     <section id="work" className="py-24 px-6 max-w-7xl mx-auto space-y-32">
       {categories.map((category) => (
         <div key={category.title}>
-          <div className="mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{category.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl">{category.description}</p>
-          </div>
+          {category.title === "Design Assignments" ? (
+            <Link href="/design-assignments" className="group flex flex-col md:flex-row md:items-center justify-between gap-6 p-8 rounded-3xl border border-border/50 bg-muted/10 hover:bg-muted/40 transition-colors">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{category.title}</h2>
+                <p className="text-muted-foreground text-lg max-w-2xl">{category.description}</p>
+              </div>
+              <div className="shrink-0 flex items-center gap-3 text-sm font-medium tracking-wide px-6 py-3 rounded-full border border-border bg-background group-hover:border-primary/50 group-hover:text-primary transition-all shadow-sm">
+                View Assignments
+                <ArrowUpRight className="w-4 h-4" />
+              </div>
+            </Link>
+          ) : (
+            <div className="mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{category.title}</h2>
+              <p className="text-muted-foreground text-lg max-w-2xl">{category.description}</p>
+            </div>
+          )}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {category.title !== "Design Assignments" && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {category.projects.map((project, index) => (
               <Link href={`/projects/${project.slug}`} key={project.title} className="group cursor-pointer block transition-all duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.02] hover:shadow-xl rounded-2xl p-4 -m-4">
                 <motion.div
@@ -114,7 +128,8 @@ export default function Projects() {
                 </motion.div>
               </Link>
             ))}
-          </div>
+            </div>
+          )}
         </div>
       ))}
     </section>

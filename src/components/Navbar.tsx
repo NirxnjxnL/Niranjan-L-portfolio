@@ -10,13 +10,13 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/70 dark:bg-black/70 backdrop-blur-md border-b border-white/20 dark:border-white/10 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#" className="text-xl font-bold tracking-tight">Niranjan.L</a>
+        <a href="/#" className="text-xl font-bold tracking-tight">Niranjan.L</a>
         
         <div className="flex items-center gap-8">
           <div className="hidden md:flex items-center gap-6 text-sm font-medium">
-            <a href="#work" className="hover:text-neutral-500 transition-colors">Work</a>
-            <a href="#about" className="hover:text-neutral-500 transition-colors">About</a>
-            <a href="#contact" className="hover:text-neutral-500 transition-colors">Contact</a>
+            <a href="/#work" className="hover:text-neutral-500 transition-colors">Work</a>
+            <a href="/#about" className="hover:text-neutral-500 transition-colors">About</a>
+            <a href="/#contact" className="hover:text-neutral-500 transition-colors">Contact</a>
           </div>
           
           <button
