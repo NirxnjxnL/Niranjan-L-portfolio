@@ -129,9 +129,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
           {project.heroImage ? (
             <img src={encodeURI(project.heroImage)} alt={project.title} className="absolute inset-0 w-full h-full object-cover" />
           ) : (
-            <div className="absolute inset-0 bg-neutral-200 dark:bg-neutral-800 animate-pulse flex items-center justify-center">
-                 <span className="text-muted-foreground font-medium uppercase tracking-widest">Hero Image Placeholder</span>
-            </div>
+            <div className="absolute inset-0 bg-neutral-900 flex items-center justify-center"></div>
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
           
@@ -275,7 +273,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
         {project.heroImage ? (
           <img src={encodeURI(project.heroImage)} alt={project.title} className="absolute inset-0 w-full h-full object-cover" />
         ) : (
-          <div className="absolute inset-0 bg-neutral-200 dark:bg-neutral-800 animate-pulse flex items-center justify-center" />
+          <div className="absolute inset-0 bg-neutral-900 flex items-center justify-center" />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
         <motion.div 
