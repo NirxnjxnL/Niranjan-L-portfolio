@@ -125,7 +125,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
           </div>
         </nav>
 
-        <section className="relative w-full h-screen bg-muted flex items-end justify-center pb-24 overflow-hidden">
+        <section className={`relative w-full h-screen bg-muted flex justify-center overflow-hidden ${project.type === 'Design Assignment' ? 'items-center' : 'items-end pb-24'}`}>
           {project.heroImage ? (
             <img src={encodeURI(project.heroImage)} alt={project.title} className="absolute inset-0 w-full h-full object-cover" />
           ) : (
