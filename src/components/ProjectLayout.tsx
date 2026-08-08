@@ -144,7 +144,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
           </motion.div>
         </section>
 
-        <div className="max-w-7xl mx-auto px-6 pt-24 space-y-32">
+        <div className="max-w-7xl mx-auto px-6 pt-24 space-y-24">
           {/* 4-Column Project Info Grid */}
           <motion.section {...fadeIn}>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 border-y border-border py-12">
@@ -169,7 +169,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
 
           {/* Dynamic Sections */}
           {project.sections.map((section, index) => (
-            <div key={index} className="space-y-16">
+            <div key={index} className="space-y-12">
               <motion.section {...fadeIn} className="max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8">{section.title}</h2>
                 <div className="prose prose-lg dark:prose-invert text-muted-foreground leading-relaxed">
@@ -214,7 +214,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
 
               {/* Actual Grid Images */}
               {section.images && section.images.length > 0 && (
-                <motion.section {...fadeIn} className={`grid grid-cols-1 ${section.images.length > 1 ? 'md:grid-cols-2' : ''} gap-8 max-w-6xl mx-auto`}>
+                <motion.section {...fadeIn} className={`grid grid-cols-1 ${section.images.length === 1 ? '' : section.images.length === 3 ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-8 max-w-6xl mx-auto`}>
                   {section.images.map((img, imgIndex) => (
                     <img key={imgIndex} src={encodeURI(img)} alt={`${section.title} ${imgIndex + 1}`} className="w-full h-auto rounded-3xl object-contain border border-border bg-white dark:bg-neutral-900" />
                   ))}
