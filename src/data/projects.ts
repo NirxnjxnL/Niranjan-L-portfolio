@@ -539,6 +539,10 @@ export const projectsData: ProjectData[] = [
         title: "Typography & Execution",
         content: [
           "**Typography:** A classic, high-contrast serif establishes a royal tone for the primary headers, balanced with a clean geometric sans-serif for product metadata and artisanal descriptions."
+        ],
+        images: [
+          "/images/boxup-gifting/mockup-3.png",
+          "/images/boxup-gifting/mockup-4.png"
         ]
       },
       {
@@ -548,9 +552,7 @@ export const projectsData: ProjectData[] = [
         ],
         images: [
           "/images/boxup-gifting/mockup-1.png",
-          "/images/boxup-gifting/mockup-2.png",
-          "/images/boxup-gifting/mockup-3.png",
-          "/images/boxup-gifting/mockup-4.png"
+          "/images/boxup-gifting/mockup-2.png"
         ]
       }
     ]
