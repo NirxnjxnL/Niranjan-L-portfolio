@@ -243,6 +243,13 @@ export default function ProjectLayout({ slug }: { slug: string }) {
                 "{project.finalStatement}"
               </h3>
             )}
+            
+            {project.type === 'Design Assignment' && (
+              <p className="text-sm text-muted-foreground italic mb-12">
+                Note: This concept was created as part of an interview design assignment and is not an official, published campaign by {project.title}.
+              </p>
+            )}
+
             <Link href="/#work" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-full font-medium hover:bg-primary/90 transition-all">
               Back to Gallery
             </Link>
