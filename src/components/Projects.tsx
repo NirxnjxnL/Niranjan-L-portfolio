@@ -69,6 +69,15 @@ export const categories = [
         image: "/images/table-space/poster-1.png",
         color: "from-[#f5f5f5] to-[#fafafa]",
         darkColor: "dark:from-[#262626] dark:to-[#171717]",
+      },
+      {
+        title: "BoxUp Luxury Gifting",
+        slug: "boxup-gifting",
+        tag: "Design Assignment | Diwali Packaging Design",
+        description: "A fresh, unique, and classy Diwali-themed packaging suite for premium gifting products featuring abstract heritage artistry.",
+        image: "/images/boxup-gifting/hero.png",
+        color: "from-[#e6f4ea] to-[#f0fff4]",
+        darkColor: "dark:from-[#0d2a19] dark:to-[#07160d]",
       }
     ]
   }

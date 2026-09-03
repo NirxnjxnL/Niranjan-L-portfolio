@@ -487,5 +487,74 @@ export const projectsData: ProjectData[] = [
         ]
       }
     ]
+  },
+  {
+    slug: 'boxup-gifting',
+    title: 'BoxUp Luxury Gifting',
+    subtitle: 'Diwali Packaging Design',
+    type: 'Design Assignment',
+    industry: 'Premium Gifting',
+    location: 'Remote',
+    timeline: '3 Days',
+    role: 'Creative Designer Intern (Assignment)',
+    deliverables: 'Box Lid Design, Jar Labels, Packaging System',
+    heroImage: '/images/boxup-gifting/hero.png',
+    tools: ['Adobe Illustrator', 'Adobe Photoshop'],
+    sections: [
+      {
+        title: "The Brief",
+        content: [
+          "The objective was to create a fresh, unique, and classy Diwali-themed packaging suite for premium gifting products.",
+          "The deliverables required a 10x10 inch design for the top of a box lid, and a 4x2 inch label for jar packaging. The brand required a look that was premium, elegant, modern, and minimal while capturing the festive essence of Diwali."
+        ]
+      },
+      {
+        title: "The Concept: The Royal Flora",
+        content: [
+          "The design reinterprets traditional Diwali festivities through a modern, sophisticated lens, moving away from conventional motifs toward abstract heritage artistry.",
+          "Anchored by an intricate botanical rangoli and bespoke geometric micro-patterns, the artwork bridges cultural tradition with minimalist luxury."
+        ]
+      },
+      {
+        title: "The Box Lid",
+        content: [
+          "**Color Palette:** A deep emerald green base evokes opulence, while delicate champagne gold vector line art provides striking contrast.",
+          "**Design:** Features an intricate botanical rangoli inspired by heritage florals, with high negative space and fine-line symmetry to deliver a refined, tactile unboxing feel."
+        ],
+        fullWidthImage: "/images/boxup-gifting/box-lid.png"
+      },
+      {
+        title: "The Jar Labels",
+        content: [
+          "**Design:** Utilizes an inverted luxury palette with a clean matte warm ivory background. This creates high visual contrast when pulled from the dark box and allows the rich textures of the nuts to stand out through the clear glass.",
+          "**Variant Customization:** Each jar variant features custom geometric line patterns tailored to the specific gourmet dry fruit, such as cashews, almonds, and pistachios."
+        ],
+        images: [
+          "/images/boxup-gifting/Cashews-jar-labels.png",
+          "/images/boxup-gifting/almonds-jar-labels.png",
+          "/images/boxup-gifting/pistachios-jar-labels.png"
+        ]
+      },
+      {
+        title: "Typography & Execution",
+        content: [
+          "**Typography:** A classic, high-contrast serif establishes a royal tone for the primary headers, balanced with a clean geometric sans-serif for product metadata and artisanal descriptions."
+        ],
+        images: [
+          "/images/boxup-gifting/mockup-1.png",
+          "/images/boxup-gifting/mockup-2.png"
+        ]
+      },
+      {
+        title: "Final Presentation",
+        content: [
+          "The final presentation beautifully encapsulates the festive luxury and minimal approach requested by the brand."
+        ],
+        images: [
+          "/images/boxup-gifting/mockup-3.png",
+          "/images/boxup-gifting/mockup-4.png"
+        ]
+      }
+    ]
   }
 ];
