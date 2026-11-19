@@ -46,22 +46,22 @@ export default function About() {
                 <div className="bg-background border border-border p-6 md:p-8 rounded-2xl relative overflow-hidden group">
                   <div className="absolute top-0 left-0 w-1 h-full bg-primary origin-top scale-y-0 group-hover:scale-y-100 transition-transform duration-300"></div>
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2 gap-1">
-                    <h4 className="text-lg font-bold">YouTube Thumbnail Designer</h4>
+                    <h4 className="text-lg font-bold">YouTube Thumbnail Designer &amp; Video Editor</h4>
                     <span className="text-xs font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full w-fit">Oct 2026 – Present</span>
                   </div>
-                  <p className="font-medium mb-4 text-primary text-sm">Mythili Miracle (Kannada Astrology YouTube Channel)</p>
+                  <p className="font-medium mb-4 text-primary text-sm">Mythili Miracle (Kannada Astrology Channel)</p>
                   <ul className="space-y-2.5 text-sm text-muted-foreground">
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Design thumbnails for video uploads across the channel.</span>
+                      <span>Design thumbnails for every video uploaded to the channel using Adobe Photoshop and Canva.</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Create visual compositions using Adobe Photoshop and Canva.</span>
+                      <span>Maintain consistent visual themes across the 12 zodiac signs through typography, colour palettes, and zodiac-specific graphics.</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Maintain a consistent visual identity through typography, colour palettes, and zodiac-specific graphics.</span>
+                      <span>Edit videos for the channel using VN Video Editor.</span>
                     </li>
                   </ul>
                 </div>
