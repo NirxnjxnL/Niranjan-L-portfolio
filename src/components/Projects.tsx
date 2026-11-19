@@ -8,8 +8,26 @@ import Image from "next/image"
 export const categories = [
   {
     title: "Selected Work",
-    description: "A collection of brand identities, packaging, and digital experiences crafted with intention.",
+    description: "A collection of brand identities, packaging, social media design, and digital experiences crafted with intention.",
     projects: [
+      {
+        title: "Bumbblebee Branding Company",
+        slug: "le-miami",
+        tag: "Graphic Design Internship | Social Media Design",
+        description: "Social media creatives, festive campaigns, promotional designs, and creative concepts developed for Le Miami Resort during my internship at Bumbblebee Branding Company.",
+        image: "/images/bumbblebee/cover.webp",
+        color: "from-[#fef3c7] to-[#fef9c3]",
+        darkColor: "dark:from-[#451a03] dark:to-[#78350f]",
+      },
+      {
+        title: "Mythili Miracle",
+        slug: "mythili-miracle",
+        tag: "Ongoing Freelance | YouTube Thumbnail Design & Video Editing",
+        description: "36+ astrology thumbnail designs across 12 zodiac signs with Kannada typography, custom visual directions, and video editing for a YouTube channel.",
+        image: "/images/mythili-miracle/cover.webp",
+        color: "from-[#ede9fe] to-[#f5f3ff]",
+        darkColor: "dark:from-[#2e1065] dark:to-[#1e1b4b]",
+      },
       {
         title: "Lavender Lily",
         slug: "lavender-lily",
@@ -20,9 +38,18 @@ export const categories = [
         darkColor: "dark:from-[#4b3e63] dark:to-[#2d253b]",
       },
       {
+        title: "iPod — A Modern Take on a Classic",
+        slug: "ipod-classic",
+        tag: "Concept Project | Product Advertising & Social Media Carousel",
+        description: "A 10-slide Instagram carousel reinterpreting the original Apple iPod through modern minimalist advertising, bold typography, and visual storytelling.",
+        image: "/images/ipod/cover.webp",
+        color: "from-[#27272a] to-[#09090b]",
+        darkColor: "dark:from-[#18181b] dark:to-[#000000]",
+      },
+      {
         title: "Pulse Fit",
         slug: "pulse-fit",
-        tag: "Self-Initiated | Brand Identity",
+        tag: "Concept Project | Brand Identity",
         description: "A bold fitness brand identity built around strength, focus, and a unique 'P' heartbeat mark symbolizing cardiovascular vitality.",
         image: "/images/pulse-fit/logo-alt-color.jpg",
         color: "from-[#e6ffed] to-[#f0fff4]",
@@ -31,7 +58,7 @@ export const categories = [
       {
         title: "Flowy",
         slug: "flowy",
-        tag: "Self-Initiated | Brand Identity & UI/UX",
+        tag: "Concept Project | Brand Identity & UI/UX",
         description: "A cohesive digital ecosystem and mobile app interface for a calm, minimal wellness brand focusing on mindfulness and balance.",
         image: "/images/flowy/final-logo.png",
         color: "from-[#e6fff2] to-[#f5fffa]",

@@ -21,7 +21,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed"
         >
-          I'm <strong className="text-foreground font-semibold">Niranjan L</strong>, a Brand & Graphic Designer based in Bengaluru, creating visual identities, packaging, and digital experiences that help businesses communicate with clarity and purpose.
+          I&apos;m <strong className="text-foreground font-semibold">Niranjan L</strong>, a Brand & Graphic Designer based in Bengaluru, creating visual identities, packaging, and digital experiences that help businesses communicate with clarity and purpose.
         </motion.p>
         
         <motion.div 
@@ -38,8 +38,10 @@ export default function Hero() {
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a 
-            href="/resume.pdf" 
-            download="Niranjan_L_Resume.pdf"
+            href="/Niranjan_L_Graphic_Designer_Resume.pdf?v=20261119" 
+            download="Niranjan_L_Graphic_Designer_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 bg-secondary text-secondary-foreground px-8 py-4 rounded-full font-medium hover:bg-secondary/80 transition-all border border-border w-full sm:w-auto justify-center"
           >
             <Download className="h-4 w-4" />

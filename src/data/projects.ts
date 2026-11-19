@@ -554,5 +554,68 @@ export const projectsData: ProjectData[] = [
         ]
       }
     ]
+  },
+  {
+    slug: "le-miami",
+    title: "Bumbblebee Branding Company",
+    subtitle: "Graphic Design Internship",
+    type: "Internship Project",
+    industry: "Hospitality & Leisure",
+    location: "Bengaluru, India",
+    timeline: "Oct 2026 – Nov 2026",
+    role: "Graphic Design Intern",
+    deliverables: "Festive Social Media Posts, Interactive Carousels, Promotional Creatives",
+    heroImage: "/images/bumbblebee/cover.webp",
+    tools: ["Adobe Photoshop", "Adobe Illustrator", "Canva"],
+    sections: [
+      {
+        title: "Overview",
+        content: [
+          "During my graphic design internship at Bumbblebee Branding Company, I worked on social media creatives and campaign concepts for Le Miami Resort. The project spanned seasonal festive celebrations, interactive engagement posts, and promotional marketing for resort amenities."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "mythili-miracle",
+    title: "Mythili Miracle",
+    subtitle: "YouTube Thumbnail Design & Video Editing",
+    type: "Ongoing Freelance Work",
+    industry: "Media & Digital Content",
+    location: "Bengaluru, India",
+    timeline: "Oct 2026 – Present",
+    role: "Freelance Thumbnail Designer & Video Editor",
+    deliverables: "36+ YouTube Thumbnails Across 12 Zodiac Signs, Video Post-Production, Channel Graphics",
+    heroImage: "/images/mythili-miracle/cover.webp",
+    tools: ["Adobe Photoshop", "Canva", "VN Video Editor"],
+    sections: [
+      {
+        title: "Overview",
+        content: [
+          "Mythili Miracle is a Kannada astrology YouTube channel publishing monthly horoscope predictions and zodiac-specific videos. Responsibilities include designing scalable thumbnail systems across 12 zodiac signs and editing videos using VN Video Editor."
+        ]
+      }
+    ]
+  },
+  {
+    slug: "ipod-classic",
+    title: "iPod — A Modern Take on a Classic",
+    subtitle: "Product Advertising & Social Media Carousel",
+    type: "Self-Initiated Concept Project",
+    industry: "Consumer Electronics & Advertising",
+    location: "Bengaluru, India",
+    timeline: "2026",
+    role: "Graphic Designer & Art Director",
+    deliverables: "10-Slide Instagram Carousel (4:5), Advertising Typography, Product Retouching",
+    heroImage: "/images/ipod/cover.webp",
+    tools: ["Figma", "Graphic Design"],
+    sections: [
+      {
+        title: "Overview",
+        content: [
+          "A self-initiated 10-slide Instagram carousel exploring a modern minimalist advertising treatment for the legendary original Apple iPod. Emphasising black-and-white product photography, bold Swiss typography, and tactile industrial details."
+        ]
+      }
+    ]
   }
 ];

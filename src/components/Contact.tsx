@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, Phone, ExternalLink } from "lucide-react"
+import { Mail, Phone } from "lucide-react"
 
 export default function Contact() {
   return (
@@ -13,10 +13,10 @@ export default function Contact() {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-6">
-          Looking to add a dedicated designer to your team? Let's connect.
+          Looking to add a dedicated designer to your team? Let&apos;s connect.
         </h2>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-          I'm looking for a full-time design role where I can contribute to branding, visual communication, and digital design.
+          I&apos;m looking for a full-time design role where I can contribute to branding, visual communication, and digital design.
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">

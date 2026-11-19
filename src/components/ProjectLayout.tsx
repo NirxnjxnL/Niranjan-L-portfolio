@@ -4,6 +4,9 @@ import { motion } from "framer-motion"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { projectsData } from "@/data/projects"
+import MythiliMiracleLayout from "@/components/MythiliMiracleLayout"
+import LeMiamiLayout from "@/components/LeMiamiLayout"
+import IPodLayout from "@/components/IPodLayout"
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -22,6 +25,17 @@ const ProjectFooter = ({ tools }: { tools?: string[] }) => {
 };
 
 export default function ProjectLayout({ slug }: { slug: string }) {
+  if (slug === "mythili-miracle") {
+    return <MythiliMiracleLayout />
+  }
+
+  if (slug === "le-miami") {
+    return <LeMiamiLayout />
+  }
+
+  if (slug === "ipod-classic" || slug === "ipod") {
+    return <IPodLayout />
+  }
   const project = projectsData.find(p => p.slug === slug)
 
   if (!project) {
@@ -240,7 +254,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
           <motion.section {...fadeIn} className="py-24 text-center max-w-4xl mx-auto border-t border-border">
             {project.finalStatement && (
               <h3 className="text-2xl md:text-4xl font-medium leading-relaxed mb-12 italic text-muted-foreground">
-                "{project.finalStatement}"
+                &ldquo;{project.finalStatement}&rdquo;
               </h3>
             )}
             
@@ -326,7 +340,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
               <h2 className="text-3xl font-bold mb-6">{project.theChallenge.title}</h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">{project.theChallenge.text}</p>
               <div className="bg-muted p-8 rounded-2xl border-l-4 border-primary">
-                <p className="text-xl font-medium italic">"{project.theChallenge.question}"</p>
+                <p className="text-xl font-medium italic">&ldquo;{project.theChallenge.question}&rdquo;</p>
               </div>
             </div>
             <div>
@@ -459,7 +473,7 @@ export default function ProjectLayout({ slug }: { slug: string }) {
         <motion.section {...fadeIn} className="py-24 text-center max-w-4xl mx-auto border-t border-border">
           <h2 className="text-2xl font-bold mb-8">Results & Reflection</h2>
           <h3 className="text-xl md:text-2xl font-medium leading-relaxed mb-8 italic text-foreground">
-            "{project.results.outcomes}"
+            &ldquo;{project.results.outcomes}&rdquo;
           </h3>
           <p className="text-muted-foreground leading-relaxed mb-12">
             {project.results.reflection}

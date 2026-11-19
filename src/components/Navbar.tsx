@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
 import { useTheme } from "next-themes"
 import { Moon, Sun } from "lucide-react"
 
@@ -10,13 +11,13 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/70 dark:bg-black/70 backdrop-blur-md border-b border-white/20 dark:border-white/10 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="/#" className="text-xl font-bold tracking-tight">Niranjan.L</a>
+        <Link href="/#" className="text-xl font-bold tracking-tight">Niranjan.L</Link>
         
         <div className="flex items-center gap-8">
           <div className="hidden md:flex items-center gap-6 text-sm font-medium">
-            <a href="/#work" className="hover:text-neutral-500 transition-colors">Work</a>
-            <a href="/#about" className="hover:text-neutral-500 transition-colors">About</a>
-            <a href="/#contact" className="hover:text-neutral-500 transition-colors">Contact</a>
+            <Link href="/#work" className="hover:text-neutral-500 transition-colors">Work</Link>
+            <Link href="/#about" className="hover:text-neutral-500 transition-colors">About</Link>
+            <Link href="/#contact" className="hover:text-neutral-500 transition-colors">Contact</Link>
           </div>
           
           <button
