@@ -53,11 +53,11 @@ export default function About() {
                   <ul className="space-y-2.5 text-sm text-muted-foreground">
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Design thumbnails for every video uploaded to the channel using Adobe Photoshop and Canva.</span>
+                      <span>Design thumbnails for every video uploaded to the channel, using Photoshop and Canva.</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Maintain consistent visual themes across the 12 zodiac signs through typography, colour palettes, and zodiac-specific graphics.</span>
+                      <span>Keep a consistent look across the 12 zodiac signs with set typography, colours and zodiac-specific graphics.</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
@@ -77,11 +77,11 @@ export default function About() {
                   <ul className="space-y-2.5 text-sm text-muted-foreground">
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Designed festive social media posts for Le Miami Resort, including Ayudha Pooja and Diwali creatives.</span>
+                      <span>Designed Ayudha Pooja and Diwali festive social media posts for Le Miami Resort.</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Created static promotional creatives, including an interactive &ldquo;Spot the Difference&rdquo; post and a swimming pool-focused resort post.</span>
+                      <span>Made static promotional creatives, including an interactive &ldquo;Spot the Difference&rdquo; post and a swimming pool-focused resort post.</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
@@ -101,11 +101,11 @@ export default function About() {
                   <ul className="space-y-2.5 text-sm text-muted-foreground">
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Completed structured training in graphic design and branding through guided lessons and practical exercises.</span>
+                      <span>Trained in graphic design and branding through guided video lessons and practice exercises.</span>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-4 w-4 text-neutral-400 shrink-0 mt-0.5" />
-                      <span>Built foundational skills in Adobe Illustrator, Photoshop, and Figma through practice assignments.</span>
+                      <span>Practised Illustrator, Photoshop and Figma through guided design assignments.</span>
                     </li>
                   </ul>
                 </div>
