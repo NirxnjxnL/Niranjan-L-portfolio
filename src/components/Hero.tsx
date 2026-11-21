@@ -38,7 +38,7 @@ export default function Hero() {
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a 
-            href="/Niranjan_L_Graphic_Designer_Resume.pdf?v=final" 
+            href="/Niranjan_L_Graphic_Designer_Resume.pdf?v=2" 
             download="Niranjan_L_Graphic_Designer_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
