@@ -18,23 +18,6 @@ export default function Navbar() {
             <Link href="/#work" className="hover:text-neutral-500 transition-colors">Work</Link>
             <Link href="/#about" className="hover:text-neutral-500 transition-colors">About</Link>
             <Link href="/#contact" className="hover:text-neutral-500 transition-colors">Contact</Link>
-            <span className="w-px h-4 bg-neutral-300 dark:bg-neutral-800" aria-hidden="true" />
-            <a 
-              href="https://www.behance.net/niranjanl3" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="hover:text-neutral-500 transition-colors"
-            >
-              Behance
-            </a>
-            <a 
-              href="https://www.linkedin.com/in/niranjan-l-381b71394/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="hover:text-neutral-500 transition-colors"
-            >
-              LinkedIn
-            </a>
           </div>
           
           <button
