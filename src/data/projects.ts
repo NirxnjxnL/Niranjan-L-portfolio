@@ -617,5 +617,26 @@ export const projectsData: ProjectData[] = [
         ]
       }
     ]
+  },
+  {
+    slug: "proof-and-body",
+    title: "PROOF & BODY",
+    subtitle: "Three Directions. One Brand.",
+    type: "Design Assessment",
+    industry: "Personal Care & Packaging Design",
+    location: "Bengaluru, India",
+    timeline: "2026",
+    role: "Brand Identity & Packaging Designer",
+    deliverables: "3 Creative Directions, Moodboards, Brand Identity Systems, Packaging Mockups, Editorial Presentation",
+    heroImage: "/images/proof-and-body/card-cover.webp",
+    tools: ["Adobe Illustrator", "Adobe Photoshop"],
+    sections: [
+      {
+        title: "Overview",
+        content: [
+          "An exploration of three distinct visual identities for a personal-care brand, developed as part of a branding and packaging design assessment for Bumbblebee Branding Company."
+        ]
+      }
+    ]
   }
 ];

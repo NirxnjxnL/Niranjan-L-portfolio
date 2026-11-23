@@ -7,6 +7,7 @@ import { projectsData } from "@/data/projects"
 import MythiliMiracleLayout from "@/components/MythiliMiracleLayout"
 import LeMiamiLayout from "@/components/LeMiamiLayout"
 import IPodLayout from "@/components/IPodLayout"
+import ProofAndBodyLayout from "@/components/ProofAndBodyLayout"
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -35,6 +36,10 @@ export default function ProjectLayout({ slug }: { slug: string }) {
 
   if (slug === "ipod-classic" || slug === "ipod") {
     return <IPodLayout />
+  }
+
+  if (slug === "proof-and-body") {
+    return <ProofAndBodyLayout />
   }
   const project = projectsData.find(p => p.slug === slug)
 

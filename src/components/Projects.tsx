@@ -105,6 +105,15 @@ export const categories = [
         image: "/images/boxup-gifting/hero.png",
         color: "from-[#e6f4ea] to-[#f0fff4]",
         darkColor: "dark:from-[#0d2a19] dark:to-[#07160d]",
+      },
+      {
+        title: "PROOF & BODY",
+        slug: "proof-and-body",
+        tag: "Design Assessment | Brand Identity & Packaging Exploration",
+        description: "An exploration of three distinct visual identities and packaging systems for a personal-care brand concept, created as a design assessment for Bumbblebee Branding Company.",
+        image: "/images/proof-and-body/card-cover.webp",
+        color: "from-[#f0f4f8] to-[#e2e8f0]",
+        darkColor: "dark:from-[#18202f] dark:to-[#0f172a]",
       }
     ]
   }
